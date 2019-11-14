@@ -1,0 +1,52 @@
+*
+{
+    background-color: #F88080;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Tahoma';
+    height: 60px;
+    width: 1910px;
+}
+
+
+.button {
+    background-color: #F88080;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Tahoma'
+  }
+  
+  .button:hover {opacity: 1}
+
+.pages {
+    background-color: #F88080;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Tahoma'
+  }
+  
+  .pages:hover {opacity: 1}
+
+
+.mage {
+    bottom: 800px;
+}
+

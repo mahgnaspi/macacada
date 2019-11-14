@@ -1,0 +1,79 @@
+.menu{
+    width: 100%;
+    background-color: #F88080;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    z-index: 1002;
+}
+
+.button {
+    background-color: #F88080;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Tahoma'
+  }
+  
+  .button:hover {opacity: 1}
+.text{
+    text-align: center;
+    top: 100px;
+    font-family: 'Tahoma';
+    position: absolute;
+    left: 750px;
+
+}
+.text2{
+    top: 160px;
+    font-family: 'Tahoma';
+    position: absolute;
+    text-align: left;
+    left: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 350px 4px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+  
+  .column img {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 100%;
+    }
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}

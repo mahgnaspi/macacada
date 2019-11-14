@@ -1,0 +1,33 @@
+.menu{
+    width: 100%;
+    background-color: #F88080;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    z-index: 1002;
+}
+
+.button {
+    background-color: #F88080;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Tahoma'
+  }
+  
+  .button:hover {opacity: 1}
+.text{
+    text-align: center;
+    top: 100px;
+    font-family: 'Tahoma';
+    position: absolute;
+    left: 750px;
+
+}
